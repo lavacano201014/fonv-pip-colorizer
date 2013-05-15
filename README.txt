@@ -1,0 +1,28 @@
+### A PRECOMPILED VERSION IS IN THE DIST BRANCH!!! ###
+
++======================+=================================================+
+| Important Legal Note | (tl;dr "Don't blame me if this melts your dog") |
++======================+=================================================+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
+THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+=== Prerequisites ===
+Python 2.7
+py2exe (no 3.x version currently, you're stuck with 2.7, sorry)
+PyQt4
+
+=== Compile Instructions ===
+1) python ./setup.py, say yes
+2) copy over .ui and .png files to the dist directory (i never bothered to set 
+   up an auto copy)
+
+
+Usage should be straightforward.
