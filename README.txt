@@ -1,4 +1,4 @@
-### A PRECOMPILED VERSION IS IN THE DIST BRANCH!!! ###
+### A PRECOMPILED VERSION IS IN THE DIST FOLDER!!! ###
 
 +======================+=================================================+
 | Important Legal Note | (tl;dr "Don't blame me if this melts your dog") |
