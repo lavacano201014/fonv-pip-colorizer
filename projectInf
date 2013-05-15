@@ -1,0 +1,8 @@
+name=Fallout NV Pip Colorizer
+version=r2
+mainfile=fnvpc.py
+iconfile=
+libfile=library.zip
+includes=sip
+excludes=Tkconstants|Tkinter|tcl
+ascii=0

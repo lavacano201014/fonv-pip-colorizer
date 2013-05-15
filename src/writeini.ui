@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>265</width>
+    <height>107</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Write INI File</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>8</x>
+     <y>6</y>
+     <width>120</width>
+     <height>63</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Game:</string>
+   </property>
+   <widget class="QRadioButton" name="falloutnv">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>17</y>
+      <width>82</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Fallout NV</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="fallout3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>36</y>
+      <width>82</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Fallout 3</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_2">
+   <property name="geometry">
+    <rect>
+     <x>136</x>
+     <y>7</y>
+     <width>120</width>
+     <height>63</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Color of:</string>
+   </property>
+   <widget class="QRadioButton" name="pipboy">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>17</y>
+      <width>82</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Pip Boy</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="hud">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>36</y>
+      <width>82</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>HUD</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="writebtn">
+   <property name="geometry">
+    <rect>
+     <x>182</x>
+     <y>75</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Save</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="readbtn">
+   <property name="geometry">
+    <rect>
+     <x>104</x>
+     <y>75</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Load</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
