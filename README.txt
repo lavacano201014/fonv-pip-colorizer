@@ -21,8 +21,5 @@ PyQt4
 
 === Compile Instructions ===
 1) python ./setup.py, say yes
-2) copy over .ui and .png files to the dist directory (i never bothered to set 
-   up an auto copy)
-
 
 Usage should be straightforward.
